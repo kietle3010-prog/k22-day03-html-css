@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng ký thông tin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-page">
+    <header>
+        <h1 class="h1-form">TƯ VẤN NHANH</h1>
+        <h2>Nhận tư vấn</h2>
+        <p>Để lại thông tin, đội ngũ của chúng mình sẽ liên hệ để hỗ trợ anh/chị sớm nhất.</p>
+    </header>
+    <main class="form-container">
+        <form action="submit_form.php" method="post">
+            <label for="name">Họ và tên</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            
+            <label for="phone">Số điện thoại</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email (tùy chọn)</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <p>Thông tin của anh/chị chỉ được dùng để liên hệ tư vấn.</p>
+            <button class="bnt" type="submit">Gửi thông tin</button>
+        </form>
+</body>
+</html>
